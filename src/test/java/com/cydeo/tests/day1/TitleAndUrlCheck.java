@@ -38,7 +38,6 @@ public class TitleAndUrlCheck {
             System.out.println("facebook url verification failed!");
         }
 
-//
         if (driver.getTitle().contains("Facebook")){
             System.out.println("facebook title verification passed!");
         } else {
